@@ -68,7 +68,6 @@ export default function page() {
             <select className='bg-transparent border border-black outline-none px-[10px] py-[4px]' name='courseName'>
               <option>--select--</option>
               {course.map((v, i) => <option value={`${v.courseName}AlertBreak93${v.courseThumbnail}`}  key={v._id}>{v.courseName}</option>)}
-
             </select>
           </label>
 
@@ -85,9 +84,7 @@ export default function page() {
               <label className='flex gap-[5px]'><input type='radio' value={true} name='videoStatus' />Active</label>
               <label className='flex gap-[5px]'><input type='radio' value={false} name='videoStatus' />Deactive</label>
             </div>
-
           </label>
-
 
           <div className='flex justify-end items-end'>
             <div className='flex gap-[20px]'>

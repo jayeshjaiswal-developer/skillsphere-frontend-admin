@@ -1,3 +1,2 @@
-export let baseUrl = 'http://13.235.175.0:8000/';
-export let imgBaseUrl = 'http://13.235.175.0:8000/';
-
+export let baseUrl = 'http://43.204.56.43:8001/';
+export let imgBaseUrl = 'http://43.204.56.43:8001/';
